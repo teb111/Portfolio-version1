@@ -1,0 +1,32 @@
+
+.about button {
+  /*   background: black; */
+  padding: 10px 35px;
+  text-align: center;
+  transition: 0.7s linear;
+  border-radius: 5px;
+  background: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 12px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  text-decoration: none; 
+border: 1px solid rgb(3,35, 30);
+background-color: transparent;
+background-image: linear-gradient(to left, transparent, transparent 50%, rgb(3, 25, 30) 50%, rgb(3, 25, 25));
+background-position: 100% 0px;
+background-size: 200% 100%;
+  transition: 0.7s ease-in-out;
+}
+
+.about button a {
+  text-decoration: none;
+  color: white;
+}
+
+.about button:hover {
+  background: rgb(10, 25, 47);
+  background-position: 0px 0px;
+}
